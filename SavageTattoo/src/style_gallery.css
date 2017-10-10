@@ -1,0 +1,32 @@
+
+@font-face
+{
+    font-family: 'Courier';
+    src: url('fonts/courier.ttf');
+}
+
+
+section
+{
+
+	margin-top: 10em;
+	width: 70%;
+	padding-top: 3em;
+	margin: auto auto;
+}
+
+.title
+{
+	font-family: 'Courier';
+	font-size: 40px;
+	letter-spacing: 15px;
+	color: white;
+	margin-left: 10%;
+}
+
+
+
+
+footer{
+	margin-top: 7%;
+}

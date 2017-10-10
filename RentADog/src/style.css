@@ -1,0 +1,133 @@
+@font-face
+{
+    font-family: 'Arial';
+    src: url('fonts/arial.ttf');
+}
+
+@font-face
+{
+    font-family: 'Courier';
+    src: url('fonts/courier.ttf');
+}
+
+body
+{
+    font-family: 'Arial';
+    background: #e9d8c1;
+    width: 900px; /* 60% */
+    height: 1200px;
+    margin: auto;
+    border: black solid 1px;
+}
+
+.pagetop
+{
+    height: 490px;
+    border-top: #e9d8c1 solid 1px;
+    letter-spacing: 3px;
+}
+
+.headerbotom
+{
+    margin-left: 2%;
+    margin-top: 17.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.getstarted
+{
+    width: 10%;
+    border: red solid 10px;
+    color: white;
+    padding: 2em;
+    justify-content: center;
+}
+
+.appstore
+{
+    margin-top: 7.5%;
+    margin-left: 53.5%
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li
+{
+    margin:  auto 20px auto 20px;
+}
+
+
+nav a
+{
+    text-align: right;
+    font-family: 'Arial';
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #8c8274;
+}
+
+.signin
+{
+    margin-left: 90%;
+    width: 10%;
+    text-align: center;
+
+}
+
+
+.signup, .login
+{
+    background: white;
+    border: solid black 1px;
+    border-radius: 3px;
+
+}
+
+.signup
+{
+    color: red;
+    font-weight: bold;
+}
+
+
+.pagebotom
+{
+    font-family: 'Courier';
+    font-weight: bold;
+    font-size: 14px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.botom-menu li
+{
+    list-style-type: none;
+}
+
+.botom-menu
+{
+    padding-right: 7em;
+    border-right: solid black 1px;
+}
+
+.botom-title
+{
+    font-size: 18px ;
+    margin-bottom: 0.5em;
+}

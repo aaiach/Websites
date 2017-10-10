@@ -1,0 +1,46 @@
+/* Fonts */
+
+@font-face
+{
+    font-family: 'Copper';
+    src: url('fonts/copper.ttf');
+}
+
+/* Main Element */
+
+body
+{
+    background: url('img/history/historybg.jpg') no-repeat center center;
+    background-size: 80% 100%;
+}
+
+
+
+/* Body */
+
+.commentary
+{
+    background: url('img/history/historybox.png');
+    background-repeat: no-repeat;
+    font-family: 'Copper';
+    font-size: 14px;
+    text-align: justify;
+    padding: 2em;
+    width: 60%;
+    
+}
+
+.element
+{
+    width: 120%;
+    margin-left: 10%;
+}
+
+.historypic
+{
+    margin-left: 11.4%;
+    margin-top: 2em;
+    margin-bottom: 9em;
+
+}
+

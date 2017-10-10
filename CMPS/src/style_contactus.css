@@ -1,0 +1,34 @@
+/* Fonts */
+
+@font-face
+{
+    font-family: 'Copper';
+    src: url('polices/copper.ttf');
+}
+
+/* Body */
+
+.contact
+{
+	margin-top: 3%;
+	background-color: rgba(146, 143, 133, 0.5);
+	border: 3px solid rgba(0, 0, 0, 0.4);
+	width: 30%;
+    border-radius: 4px;
+    line-height: 120%;
+    margin-left: 2%
+}
+
+.map
+{
+	width: 54%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+}
+
+/* Footer */
+
+#footerpic{
+	margin-top: 30%;
+}

@@ -1,0 +1,95 @@
+@font-face
+{
+    font-family: 'Arial';
+    src: url('fonts/arial.ttf');
+}
+
+@font-face
+{
+    font-family: 'Courier';
+    src: url('fonts/courier.ttf');
+}
+
+.pagetop
+{
+    background: url("img/homeimage.jpg");  
+}
+
+.info
+{
+    height: 272px;
+    background: url('img/homegrass.jpg');
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box
+{
+    height: 60%;
+    width: 30%;
+
+    border-radius: 8px;
+    margin-top: 2%;
+    padding: 2em;
+
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.box-title
+{
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.renters
+{
+    background: url('img/baseball.png') no-repeat center center white;
+}
+
+.owners
+{
+    background: url('img/fire.png') no-repeat center center white;
+}
+
+.reviews
+{
+    height: 174px;
+    background: #f7c77b;
+}
+
+.reviews-title
+{
+    font-family: 'Courier';
+    margin-left: 1em;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+
+}
+
+.comment
+{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Arial';
+    width: 80%;
+    margin-left: 1em;
+}
+
+.comment p
+{
+    margin-left: 1em;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+footer
+{
+    margin-top: 4%;
+}

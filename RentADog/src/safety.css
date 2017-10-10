@@ -1,0 +1,52 @@
+@font-face
+{
+    font-family: 'Arial';
+    src: url('fonts/arial.ttf');
+}
+
+@font-face
+{
+    font-family: 'Courier';
+    src: url('fonts/courier.ttf');
+}
+
+.pagetop
+{
+    background: url("img/safetyimage.jpg");  
+}
+
+.safety
+{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    width: 28%;
+}
+
+.safety-content
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box
+{
+    font-family: 'Courier';
+    color: #f5989d;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+
+    width: 24%;
+
+    background: white;
+    border-radius: 4px;
+    padding: 1em 2.5em 0em 2.5em;
+}
+
+footer
+{
+    margin-top: 11.5%;
+}

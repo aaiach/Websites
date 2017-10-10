@@ -1,0 +1,115 @@
+/* Main Style File: includes style features common to all pages;
+
+/* Fonts */
+
+@font-face
+{
+    font-family: 'Copper';
+    src: url('fonts/copper.ttf');
+}
+
+/* Main Element */
+
+body
+{
+    background: url('img/homebg.jpg') no-repeat center center;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+    background-size: 80% 100%;
+    width: 900px;
+    height: 1300px;
+    margin: auto;
+}
+
+/* Header: positioning and formatting of Social Media icons and logo */
+
+#social_media
+{
+    margin-top: 2em;
+}
+
+#social_media a
+{
+    text-decoration: none;
+}
+
+#logopsg
+{
+    width: 30%;
+    height: auto;
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Site menus: Formatting of navigation menus; */ 
+
+
+#this /* Color of a tab when it corresponds to the current page */
+{
+    color: #ff0000;
+}
+
+header nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li
+{
+    padding-left: 90px;
+}
+
+nav a
+{
+    font-family: 'Copper';
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover /* Underline and color when hovering over a tab */
+{
+    color: #ff0000;
+    border-bottom: 3px solid #ff0000;
+}
+
+/* Body */
+
+#board /* Positioning of this main element which is present in several pages, such as the fixtures and results board */
+{
+    padding: 2em;
+    width: 68%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Footer */
+
+#bottom_nav
+{
+    width: 86%;
+    height: auto;
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 25px;
+}
+
+

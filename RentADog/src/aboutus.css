@@ -1,0 +1,49 @@
+@font-face
+{
+    font-family: 'Arial';
+    src: url('fonts/arial.ttf');
+}
+
+@font-face
+{
+    font-family: 'Courier';
+    src: url('fonts/courier.ttf');
+}
+
+.aboutus-content
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutus-title
+{
+    margin-left: 5em;
+    margin-top: 0.5em;
+}
+
+.video
+{
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.text
+{
+    width: 38%;
+    font-family: 'Arial';
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 1.5em;
+    margin-top: 0.5em;
+}
+
+.pagetop
+{
+    background: url("img/aboutusimage.jpg");  
+}
+
+footer
+{
+    margin-top: 8.4%;
+}

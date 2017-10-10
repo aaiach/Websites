@@ -1,0 +1,90 @@
+/* Fonts */
+
+@font-face
+{
+    font-family: 'Roman';
+    src: url('fonts/tenr.ttf');
+}
+
+@font-face
+{
+    font-family: 'Caslon';
+    src: url('fonts/caslon.ttf');
+}
+
+
+body
+{
+    width: 1020px;
+    height: 1020px;
+    margin: auto;
+}
+
+
+#title span
+{
+    margin-top: 2em;
+}
+
+#title
+{
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: row;
+
+    letter-spacing: 25px;
+    color: white;
+    font-size: 43px;
+    font-family: 'Caslon'
+}
+
+/* Navigation */
+
+header nav
+{
+    height: 34px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    background: white;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li
+{
+	margin: auto 2.3em auto 2.3em;
+    height: 12px;
+}
+
+nav a
+{
+    font-family: 'Roman';
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #2c2727;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #7f7f7f;
+}
+
+
+
+footer nav
+{
+    margin: auto 18em auto 18em;
+}
+
+

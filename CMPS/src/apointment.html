@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style_apointment.css" />
+        <title>Tony Rustom</title>
+    </head>
+    <body>
+        
+        <!-- Header: Includes main picture, navigation menu and search bar -->
+        <header>
+
+            <div id="language">
+                <img src="img/language.png">
+            </div>
+            
+            <div id="logo">
+                <a href="home.html">
+                    <img src="img/logo.png" alt="Home">
+                </a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li id="oneline"><a href="aboutus.html">About Us</a></li>
+                    <li id="twoline"><a href="apointment.html">Apointment <br> Payment</a></li>
+                    <li id="oneline"><a href="treatments.html">Treatments</a></li>
+                    <li id="twoline"><a href="contactus.html">Contact Us<br>Map</a></li>
+                </ul>
+            </nav>
+
+            <input type="text" name="search" placeholder="Search">
+            
+        </header>
+
+        <!-- Main section: Page content -->
+        <section>
+
+            <form method="get">
+
+                <div class="top-form">
+                    <span class="form-title">Book an apointment :</span>
+
+                    <input type="text" placeholder="Name"/><br>
+                </div>
+                
+                <div class="middle-form">
+
+                    <select>
+                        <option disabled selected>Treatment</option>
+                        <option>Manual Therapy</option>
+                        <option>Massage</option>
+                        <option>Electrotherapy</option>
+                        <option>Total Gym</option>
+                        <option>LPG</option>
+                        <option>Mechanotherapy</option>
+                    </select>
+
+                    <input type="datetime-local" placeholder="Date"><br>
+
+                    <span class="form-title">Payment :</span><br>
+
+                    <div class="image-block">
+                        <select>
+                            <option disabled selected>Payment Method :</option>
+                            <option>Visa</option>
+                            <option>MasterCard</option>
+                            <option>American Express</option>
+                        </select><br>
+
+                        <img src="img/payment.png">
+                    </div>
+
+                    <label for="cardholder">Card Holder :</label><br>
+                    <input type="text" name="cardholder"/><br>
+
+                    <label for="cardnumber">Card Number :</label><br>
+                    <input type="text" name="cardnumber"/><br>
+
+                    <label for="expiry">Expiry Date :</label><br>
+                    <input type="text" name="expiry"/><br>
+
+                    <label for="security">CVV2 Security Number :</label><br>
+                    <input type="number" name="security" max="999"/>
+
+                </div>
+
+                    <span class="form-title">Gift Card :</span><br>
+
+                <div class="image-block">
+
+                    <input type="number" placeholder="Amount"/><br>
+                    <img src="img/gift.png">
+
+                </div>
+
+            </form>
+   
+        </section>
+        
+        <!-- Footer: bottom images and element -->
+
+        <footer>
+
+            <div id="footerpic">
+                <span id="bone1"><img src="img/bone1.png"></span>
+                <img src="img/bone2.png">
+            </div>
+            
+        </footer>
+        
+    </body>
+</html>

@@ -1,0 +1,127 @@
+@font-face
+{
+    font-family: 'Arial';
+    src: url('fonts/Arial.ttf');
+}
+
+body
+{
+    font-family: 'Arial';
+    width: 800px;
+    height: 1333px;
+    margin: auto;
+}
+
+.current
+{
+    color: black;
+}
+
+.pagetop
+{
+    height: 403px;
+    border: white solid 1px;
+    letter-spacing: 3px;
+    background: url('images/banner.jpg');
+}
+
+.logo
+{
+    margin: 14em 37% auto 38%;
+}
+
+/* All Menus */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav a
+{
+    text-align: right;
+    font-family: 'Arial';
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    border-bottom: solid 2px white;
+}
+
+/* Top Menu */
+
+header nav ul
+{
+    margin-top: 2em;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+header nav li
+{
+    padding: 0.5em 0.3em 0.5em 0.3em;
+    margin: auto 15px auto 15px;
+    width: 10em;
+    background: #fb9c35;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+header nav li
+{
+    padding: 0.5em 0.3em 0.5em 0.3em;
+    margin: auto 15px auto 15px;
+    width: 10em;
+    background: #fb9c35;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15pt;
+}
+
+header nav a
+{
+    color: white;
+}
+
+/* Botom menu */
+
+footer nav ul
+{
+    margin-top: 2em;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+footer nav li
+{
+    padding: 0.1em;
+    margin: auto 10px auto 10px;
+    width: 7em;
+
+    background: #ffc134;
+    border-radius: 5px;
+
+    text-align: center;
+    font-size: 10pt;
+}
+
+footer nav a
+{
+    color: black;
+    font-weight: bold;
+
+}
+
+/* section */
+
+section
+{
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+

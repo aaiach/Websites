@@ -1,0 +1,132 @@
+/* Fonts */
+
+@font-face
+{
+    font-family: 'Courier';
+    src: url('polices/Courier.ttf');
+}
+
+/* Main Element */
+
+body
+{
+	font-family: 'Courier';
+    background: url('img/background.jpg') no-repeat center center;
+    color: #181818;
+    width: 900px;
+    height: 1500px;
+    margin: auto;
+}
+
+/* Header */
+
+#language
+{
+	margin-left: 64%;
+}
+
+
+#logo
+{
+    width: 58%;
+    margin-bottom: 2em;
+    padding-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Site menus */
+
+header nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+nav ul
+{
+	margin-right: 2em;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li
+{
+	background: rgba(255,255,255,0.3);
+	border: 3px solid rgba(0, 0, 0, 0.3);
+	margin:  auto 0.42em auto 0.42em;
+}
+
+#oneline
+{
+	padding: 0.95em;
+}
+
+#twoline
+{
+	padding: 0.38em;
+}
+
+nav a
+{
+	text-align: right;
+    font-family: 'Courier';
+    font-size: 16px;
+    color: #181818;
+    border-bottom: black 2px 2px
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 4px;
+}
+
+nav a:hover
+{
+    color: #785a00;
+}
+
+header input
+{
+   	background-color: #928f85;
+	border: 3px solid rgba(0, 0, 0, 0.65);
+	padding: 0.4em;
+	width: 11%;
+	margin-left: 67.2%;
+    border-radius: 4px;
+}
+
+::-webkit-input-placeholder {
+   	font-family: 'Courier';
+    font-size: 16px;
+    color: #181818;
+    font-weight: bold;
+}
+
+/* Body */
+
+
+::-webkit-input-placeholder
+{
+    font-size: 12px;
+}
+
+/* Footer */
+
+
+#footerpic
+{
+    margin-left: 44.5%;
+    margin-right: 44.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+#bone1
+{
+	margin-bottom: 1.8em;
+}
+
+

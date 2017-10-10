@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style_contact.css" />
+        <title>PSG</title>
+    </head>
+    <body>
+        
+        <!-- Header: Social media links, Main logo and top navigation menu -->
+        <header>
+            <div id="social_media">
+                <a target="_blank" href="http://www.instagram.com/psg">
+                    <img src="img/instagram.png" alt="Official Instagram Profile">
+                </a>
+                <a target="_blank" href="http://www.facebook.com/psg">
+                    <img src="img/facebook.png" alt="Official Facebook Page">
+                </a>
+            </div>
+            <div id="logopsg">
+                <a href="home.html">
+                <img src="img/psglogo.png" alt="Home">
+                </a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="results.html">Results</a></li>
+                    <li><a href="fixtures.html">Fixtures</a></li>
+                    <li><a href="history.html">History</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main section: Images and text -->
+        <section>
+
+            <div class="element">
+                <p class="commentary">
+                    Use this page to contact the talkpsg admin if you have any problems with the site or any general suggestions. If your query is not to do with talkpsg please use the main contact form: <br> http://www.psg.fr/fr/Accueil/0/Home. 
+                </p>
+            </div>
+
+            <!-- Contact form, has a text, e-mail and submit type of input, as well as a textarea for the long text  -->
+            <form method="get">
+ 
+                <label for="name">Your name:</label>
+                <input type="text" name="name" size="110" />
+                
+                <label for="email">Your e-mail:</label>
+                <input type="email" name="email" size="110" />
+                
+                <label for="message">Your message:</label>
+                <textarea name="message" rows="10" cols="50"></textarea>
+                
+                <input type="submit" value="Send my message" />
+
+            </form>
+
+
+        </section>
+        
+
+        <!-- Footer: bottom navigation menu -->
+
+        <footer>
+            <div id="bottom_nav">
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a id="this" href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+        
+    </body>
+</html>

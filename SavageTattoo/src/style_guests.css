@@ -1,0 +1,54 @@
+
+@font-face
+{
+    font-family: 'Roman';
+    src: url('fonts/tnr.ttf');
+}
+
+@font-face
+{
+    font-family: 'Caslon';
+    src: url('fonts/caslon.ttf');
+}
+
+
+body
+{	
+	background: url('img/guests/background.jpg') no-repeat center center;
+}
+
+.title
+{
+	font-family: 'Roman';
+	font-size: 12px;
+	color: white;
+	justify-content: center;
+	margin-left: 29em;
+	margin-top: 2em;
+	letter-spacing: 6px;
+}
+
+.title span
+{
+	font-size: 20px;
+}
+
+.content
+{
+	width: 92%;
+	padding-top: 1em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: auto auto;
+}
+
+.topimg
+{
+	margin-bottom: 0.8em;
+}
+
+
+footer{
+	margin-top: 7%;
+}

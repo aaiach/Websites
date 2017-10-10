@@ -1,0 +1,55 @@
+
+@font-face
+{
+    font-family: 'Roman';
+    src: url('fonts/tnr.ttf');
+}
+
+@font-face
+{
+    font-family: 'Caslon';
+    src: url('fonts/caslon.ttf');
+}
+
+
+body
+{	
+	background: url('img/artists/background.jpg') no-repeat center center;
+}
+
+section
+{
+	width: 92%;
+	padding-top: 1em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: auto auto;
+}
+
+.name, .follow
+{
+	font-family: 'Roman';
+	color: white;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+.name
+{
+	font-size: 22px;
+	margin: 0.8em;
+
+}
+
+.follow
+{
+	font-size: 10px;
+	margin: 2em;
+}
+
+
+
+footer{
+	margin-top: 7%;
+}

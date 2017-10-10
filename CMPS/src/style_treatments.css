@@ -1,0 +1,52 @@
+/* Fonts */
+
+@font-face
+{
+    font-family: 'Copper';
+    src: url('polices/copper.ttf');
+}
+
+/* Body */
+
+body
+{
+    background: url('img/background.jpg') repeat-y center center;
+}
+
+
+/* Footer */
+
+#footerpic{
+	margin-top: 10%;
+	margin-bottom: 3%;
+}
+
+.treatment
+{
+	background-color: rgba(146, 143, 133, 0.5);
+	border: 3px solid rgba(0, 0, 0, 0.4);
+	width: 55%;
+	margin-top: 2em;
+	margin-left: 21.5%;
+    border-radius: 4px;
+    text-align: justify;
+    padding: 1em;
+}
+
+.imgslider
+{
+   margin: auto auto;
+   width: 40%;
+   text-align: center
+}
+
+.content span
+{	
+	border-bottom: solid 1px black;
+	line-height: 2px;
+}
+
+.content p
+{
+	text-align: justify;
+}

@@ -1,0 +1,45 @@
+/* Fonts */
+
+@font-face
+{
+    font-family: 'Copper';
+    src: url('polices/copper.ttf');
+}
+
+/* Body */
+
+.content
+{
+	position: relative;
+}
+
+.homepic
+{
+	position: absolute;
+	margin-top: 7%;
+	margin-left: 28%;
+}
+
+.philosophy
+{
+	position: absolute;
+	background-color: rgba(146, 143, 133, 0.5);
+	border: 3px solid rgba(0, 0, 0, 0.4);
+	width: 34%;
+	margin-left: 21%;
+    border-radius: 4px;
+    line-height: 170%;
+}
+
+p span
+{
+	text-decoration: underline;
+	font-weight: bold;
+	padding-left: 6em;
+}
+
+/* Footer */
+
+#footerpic{
+	margin-top: 97%;
+}

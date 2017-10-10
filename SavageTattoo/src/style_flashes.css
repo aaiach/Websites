@@ -1,0 +1,29 @@
+
+@font-face
+{
+    font-family: 'Roman';
+    src: url('fonts/tnr.ttf');
+}
+
+@font-face
+{
+    font-family: 'Caslon';
+    src: url('fonts/caslon.ttf');
+}
+
+
+body
+{	
+	background: url('img/flashes/background.png') no-repeat center center;
+}
+
+.flashes
+{
+	margin: 0.3em 3em auto 3em;
+}
+
+
+
+footer{
+	margin-top: 7%;
+}

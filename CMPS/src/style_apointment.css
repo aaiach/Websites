@@ -1,0 +1,67 @@
+/* Fonts */
+
+@font-face
+{
+    font-family: 'Courier';
+    src: url('polices/Courier.ttf');
+}
+
+/* Body */
+
+
+form
+{
+	margin-top: 2%;
+	margin-left: 28%
+}
+
+form input, select
+{
+   	background-color: #bab8b2;
+	border: 3px solid rgba(0, 0, 0, 0.65);
+	padding: 0.4em;
+	width: 29%;
+    border-radius: 4px;
+}
+
+input, form span, select, label
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-family: 'Courier';
+	font-weight: bold;
+}
+
+.form-title
+{
+	border-bottom: solid 1px black;
+}
+
+.middle-form
+{
+	margin-bottom: 8em;
+}
+
+.topform
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.image-block
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.image-block input, .image-block select
+{
+	margin-right: 2em;
+}
+
+/* Footer */
+
+#footerpic{
+	margin-top: 23%;
+}
+

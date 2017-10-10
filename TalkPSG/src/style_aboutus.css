@@ -1,0 +1,51 @@
+/* Fonts */
+
+@font-face
+{
+    font-family: 'Copper';
+    src: url('polices/copper.ttf');
+}
+
+/* Main Element */
+
+body
+{
+    background: url('img/about-us/aboutusbg.jpg') no-repeat center center;
+    background-size: 80% 100%;
+}
+
+nav a
+{
+    color: #ffffff;
+}
+
+/* Body */
+
+.commentary
+{
+    background: url('img/history/historybox.png');
+    background-repeat: no-repeat;
+    font-family: 'Copper';
+    font-size: 21px;
+    text-align: justify;
+    padding: 2em;
+    padding-right: 8em;
+}
+
+.element
+{
+    margin-left: 10%;
+}
+
+u
+{
+    text-decoration: underline;
+}
+
+.aboutuspic
+{
+    margin-left: 11.4%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+
+}

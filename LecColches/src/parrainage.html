@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    
+    <style>
+
+        section
+        {
+            background: #fbad59;
+            border-radius: 5px;
+            padding-top: 6%;
+
+        }
+
+        .text
+        {
+            margin-right: 15%;
+            margin-left: 15%;
+            text-align: justify;
+            color: #461b29;
+        }
+
+        /* Form */
+
+        .smallform
+        {
+            margin-top: 10%;
+            display: flex;
+            flex-direction: row;
+        }
+
+        form { 
+            margin-right: 15%;
+            margin-left: 15%;
+            margin-bottom: 10%;
+            padding-bottom: 10%;
+        }
+
+
+        input, textarea /* Styling of form inputs */
+        {
+            margin: 1em auto;
+            border: 3px solid #b79066;
+            border-radius: 4px;
+
+        }
+
+        input
+        {
+            height: 20px;
+        }
+        
+        /* footer */ 
+
+        footer
+        {
+            margin-top: 5%;
+        }
+
+    </style>
+    
+
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>LESCOLCHE</title>
+    </head>
+    <body>
+        
+        <header>
+        
+            <div class="pagetop">
+
+                <div class="logo">
+                    <a href="home.html">
+                        <img src="images/logo.png">
+                    </a>
+                </div>
+                <div class="options">
+                    <div class="language">
+                    </div>
+
+                    <div class="admin">
+                    </div>
+                </div>
+
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="apropos.html">A PROPOS</a></li>
+                    <li><a href="#">DONS</a></li>
+                    <li><a class="current" href="parrainage.html">PARRAINAGE</a></li>
+                    <li><a href="projets.html">PROJETS</a></li>
+                </ul>
+            </nav>
+           	
+        </header>
+
+        <section>
+
+            <p class="text">
+                Chaque enfant dans le monde devrait sentir l’amour. Devenez parrain et marraine!<br><br>
+
+                Pour plus d’information veuillez visiter: http://www.lescolche-asie.fr/downloads/Operation_Parrainage.pdf<br><br>
+
+                Actuellement, tous les enfants qui nous ont été confiés ont un parrain/marraine. Nous contacter si vous souhaitez parrainer un enfant. (4, rue Eugène Sue 77340 PONTAULT-COMBAULT)
+            </p>
+
+            <form method="get">
+ 
+                <div class="smallform">
+
+                    <div>
+                        <input type="text" name="name" size="40" placeholder="NOM, PRENOM" />
+                        <input type="email" name="email" size="40" placeholder="E-MAIL"/>
+                        <input type="text" name="sujet" size="40" placeholder="SUJET"/>
+                    </div>
+
+                    <img src=images/star.jpg>
+
+                </div>
+                
+                <br><textarea name="message" rows="10" cols="69" placeholder="VOTRE MESSAGE..."></textarea>
+                
+            </form>
+        
+
+        </section>
+        
+
+        <footer>
+
+            <nav>
+                <ul>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">PRESSE</a></li>
+                    <li><a href="#">PARTENAIRES</a></li>
+                    <li><a href="#">FACEBOOK</a></li>
+                </ul>
+            </nav>
+
+        </footer>
+        
+    </body>
+</html>

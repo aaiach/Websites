@@ -1,0 +1,45 @@
+@font-face
+{
+    font-family: 'Arial';
+    src: url('fonts/arial.ttf');
+}
+
+@font-face
+{
+    font-family: 'Courier';
+    src: url('fonts/courier.ttf');
+}
+
+.pagetop
+{
+    background: url("img/faqimage.jpg");  
+}
+
+
+.faq
+{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.7em;
+    width: 12%;
+}
+
+.faq-content
+{
+    font-family: 'Courier';
+    color: #f5989d;
+    font-weight: bold;
+    margin-left: 2em;
+    width: 65%;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+
+footer
+{
+    margin-top: 0%;
+}
+
+
+

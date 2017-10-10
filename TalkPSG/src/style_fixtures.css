@@ -1,0 +1,51 @@
+/* Fonts */
+
+@font-face
+{
+    font-family: 'Copper';
+    src: url('fonts/copper.ttf');
+}
+
+/* Main Element */
+
+body
+{
+    background: url('img/fixtures/fixturesbg.jpg') no-repeat center center;
+    background-size: 80% 100%;
+}
+
+nav a
+{
+    color: #ffffff;
+}
+
+/* Body */
+
+.main_row
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7.8em;
+}
+
+.commentary
+{
+    background: url('img/results/resultsbox.png');
+    background-repeat: no-repeat;
+    font-family: 'Copper';
+    font-size: 16px;
+    text-align: justify;
+    padding: 1em;
+    padding-right: 2em;
+}
+
+.element
+{
+    width: 32%;
+}
+
+.element_image
+{
+    padding-top: 1em;
+}
+
